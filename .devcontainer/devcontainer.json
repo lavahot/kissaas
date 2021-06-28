@@ -43,7 +43,12 @@
 		"mtxr.sqltools-driver-pg",
 		"cstrap.flask-snippets",
 		"nhoizey.gremlins",
-		"davidanson.vscode-markdownlint"
+		"davidanson.vscode-markdownlint",
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"yzhang.markdown-all-in-one",
+		"visualstudioexptteam.vscodeintellicode",
+		"wwm.better-align"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
