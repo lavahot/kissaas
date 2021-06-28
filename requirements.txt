@@ -1,0 +1,7 @@
+gunicorn
+flask
+wtforms
+flask_wtf
+#flask_sqlalchemy
+#flask_login
+#werkzeug
