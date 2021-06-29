@@ -53,6 +53,7 @@ KiSSaaS is an app aimed at delivering kind and/or inspirational messages to user
     - [] They can be moderated or deleted.
 
 ## Things to worry about (in no particular order)
+
 - 🤖 Robots
 - 💗 Scaling issues
 - 🔒 Security issues (vulnerabilities in design and dependencies)
