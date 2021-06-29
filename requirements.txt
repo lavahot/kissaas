@@ -1,4 +1,5 @@
 gunicorn
+black
 flask
 wtforms
 flask_wtf
