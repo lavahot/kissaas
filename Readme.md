@@ -1,5 +1,7 @@
 # KiSSaaS
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
+
 This is the repository for Kindness In Simple Sentences As A Service (KiSSaaS). It is intended to be a proving ground for my skills as a DevOps Engineer. The scope of this project is to create a full deployment of an arbitrary web service, complete with: Web service (flask app), database (Postgres via SQLAlchemy), CI/CD (in GitHub Actions), IaC deployments (via Terraform targeting AWS), scalability testing (via Apache Bench), monitoring (via OpenTelemetry). System design will explore as many modern web paradigms as is reasonable.
 
 ## Goals
