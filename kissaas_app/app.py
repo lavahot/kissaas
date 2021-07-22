@@ -1,5 +1,6 @@
+from random import choice, seed
+
 from flask import Flask
-from random import choice
 
 app = Flask(__name__)
 
@@ -10,11 +11,11 @@ inspirations = [
     "Make your biggest dreams come true by working on its smallest parts.",
     "Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear.",
     "You have more fans than you think.",
-    "Do Better"
+    "Do Better",
 ]
 
 
-@app.route('/')
-@app.route('/kindness')
-def kindness():
+@app.route("/")
+@app.route("/kindness")
+def kindness(seed=seed()):
     return choice(inspirations)
