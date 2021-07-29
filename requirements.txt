@@ -1,5 +1,5 @@
 # WSGI for Devcontainer environment. See https://code.visualstudio.com/docs/containers/quickstart-python#_gunicorn-modifications-for-djangoflask-apps
-gunicorn
+gunicorn==20.0.4
 
 # Dev environment things
 black
@@ -7,7 +7,7 @@ pytest
 pytest-mock
 
 # Flask things
-flask
+flask==1.1.2
 
 # Flask forms
 wtforms
