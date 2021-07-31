@@ -4,6 +4,7 @@
 **/.env
 **/.git
 **/.gitignore
+**/.gitattributes
 **/.project
 **/.settings
 **/.toolstarget
@@ -23,4 +24,6 @@
 **/obj
 **/secrets.dev.yaml
 **/values.dev.yaml
-README.md
+Readme.md
+
+**/tests
