@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}
+Kindness
+{% endblock %}
+{% block content %}
+    {%if kindness %}
+        {{ kindness }}
+    {% else %}
+        Sorry, kindness has run out.
+    {% endif %}
+{% endblock %}
