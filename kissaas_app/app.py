@@ -1,8 +1,8 @@
 from random import choice, seed
 
-from flask import Flask
+from flask import render_template
 
-app = Flask(__name__)
+from . import app
 
 inspirations = [
     "Hang in there, baby.",
@@ -18,4 +18,4 @@ inspirations = [
 @app.route("/")
 @app.route("/kindness")
 def kindness(seed=seed()):
-    return choice(inspirations)
+    return render_template("kindness.html", kindness=choice(inspirations))
